@@ -10,7 +10,7 @@ namespace SmartHotel360.PublicWeb.Controllers
     [Route("api/config")]
     public class ConfigController : Controller
     {
-    //Test
+    //Test change
         private readonly LocalSettings _LocalSettings;
 
         public ConfigController(SettingsService settingsService)
